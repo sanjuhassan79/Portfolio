@@ -1,0 +1,73 @@
+.work-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+    
+}
+.work-detail {
+    background: #dc3545;
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(100% + 40px);
+    transform: translateX(-40px);
+    text-align: left;
+    
+}
+.work-detail .title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+.work-detail .desc {
+    margin-bottom: 20px;
+    color: #e9e9e9;
+    font-family: 300;
+    font-size: 15px;
+}
+.work-detail .feature {
+    margin-bottom: 25px;
+}
+.work-detail h5 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.work-detail .feature-list {
+    color: #e9e9e9;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.work-detail .feature-list li {
+    position: relative;
+    padding-left: 25px;
+}
+.work-detail .feature-list li:before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 14px;
+}
+.work-detail .technology {
+    margin-bottom: 10px;
+}
+.work-detail .technology span {
+    display: inline-block;
+    background: #303030;
+    padding: 3px 6px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 8px;
+    
+}
+.work-link a {
+    margin-right: 15px;
+    color: #e9e9e9;
+    font-size: 18px;
+}
