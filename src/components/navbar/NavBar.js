@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
 const NavBar = () => {
+
+    const [sidebar, setSidebar] = useState(false);
+    const showSidebar = () => setSidebar(!sidebar);
     return (
         <div>
             <div className="area">
-                <img src="https://i.ibb.co/jk6C2vj/sanju.png" alt="sanju" className="img-fluid imgItem"/>
+            <div onClick={showSidebar} className="dis_none">
+            <i className="fas fa-bars"></i>
             </div>
-            <nav className="main-menu">
+                <img src="https://i.ibb.co/jk6C2vj/sanju.png" alt="sanju" className="img-fluid imgItem"/>
+            
+           
+            </div>
+            <nav className= {sidebar ? 'main-menu active' : 'main-menu'}>
             <ul>
+            <div onClick={showSidebar} className="cloes dis_none">
+            <i className="fas fa-times"></i>
+            </div>
                 <li>
                     <Link to="/">
                         <i className="fas fa-home fa-2x"><br />

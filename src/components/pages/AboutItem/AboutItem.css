@@ -1,0 +1,125 @@
+.sc-gtsrHT.gfuSqG {
+    
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;
+    padding: 45px 21px;
+    border-radius: 6px;
+    background: linear-gradient( 
+145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    transition: var(0.4s);
+}
+
+.gfuSqG h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 22px;
+    text-transform: capitalize;
+}
+.gfuSqG .info-title {
+    font-weight: 500;
+    font-size: 16px;
+    width: 30%;
+}
+.gfuSqG .info-detail {
+    font-size: 16px;
+    flex: 1 1 0%;
+}
+.gfuSqG .single-info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+ .about-intro-content {
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ 
+ .about-intro-content h3 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+ }
+ 
+ .about-intro-content span {
+    color: #65676b;
+    font-size: 17px;
+ }
+ 
+ .about-single-icon {
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+ 
+ .about-single-icon:last-child {
+    margin-right: 0;
+ }
+ 
+ .about-single-icon img {
+    max-width: 35px;
+    max-height: 35px;
+    height: 100%;
+    margin-bottom: 5px;
+ }
+ 
+ .about-single-icon p {
+    font-size: 14px;
+    font-weight: 500;
+ }
+ 
+ .single-interest {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+ }
+ 
+ @media (min-width: 992px) and (max-width: 1199px) {
+    .about-single-icon {
+       margin-right: 0;
+       margin-left: 0;
+       width: 20%;
+    }
+ }
+ 
+ @media (max-width: 767px) {
+    .about-banner {
+       height: 120px;
+    }
+ 
+    .about-intro-content h3 {
+       font-size: 32px;
+    }
+ 
+    .profile-pic {
+       width: 125px;
+       height: 125px;
+       margin-top: -90px;
+    }
+ 
+    .about-intro-content span {
+       font-size: 16px;
+    }
+ }
+ 
+ @media (min-width: 575px) and (max-width: 767px) {
+    .about-single-icon {
+       margin-right: 0;
+       margin-left: 0;
+       width: 20%;
+    }
+ }
+ 
+ @media (max-width: 575px) {
+    .about-single-icon {
+       margin-right: 0;
+       margin-left: 0;
+       width: 33.33%;
+    }
+ }
+ 

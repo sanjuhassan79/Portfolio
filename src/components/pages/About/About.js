@@ -1,9 +1,12 @@
 import React from 'react';
+import AboutItem from '../AboutItem/AboutItem';
+import Resume from '../Resume/Resume';
 
 const About = () => {
     return (
         <div>
-            <h1>About</h1>
+            <AboutItem></AboutItem>
+            <Resume></Resume>
         </div>
     );
 };
